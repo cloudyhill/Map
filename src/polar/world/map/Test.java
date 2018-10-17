@@ -71,7 +71,7 @@ public class Test {
             }
         }
         System.out.println("Single thread time used: "+Duration.between(t1, LocalDateTime.now()));
-        
+        System.out.println("test");
         LocalDateTime t2=LocalDateTime.now();
         final ExecutorService executor=Executors.newFixedThreadPool(20);
         final List<Future<?>> futures=new ArrayList<>();        
