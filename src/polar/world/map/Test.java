@@ -92,6 +92,7 @@ public class Test {
             e.printStackTrace();
         }
         System.out.println("Parallel time used: "+Duration.between(t2, LocalDateTime.now()));
+        System.exit(0);
     }
    
 }
